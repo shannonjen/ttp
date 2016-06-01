@@ -1,5 +1,13 @@
 #Queens College Tech Talent Pipeline 2016
-##Free Resources (my favorites)
+##Reference (my favorites)
+###HTML Elements
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+###CSS properties, psuedo-classes, units,...
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+###Git
+https://git-scm.com/docs
+
+##Free Learning Resources (my favorites)
 ###HTML & CSS
 http://learn.shayhowe.com/html-css/
 ###Git
