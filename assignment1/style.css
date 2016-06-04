@@ -34,9 +34,12 @@ nav a {
 #social {
 	position: fixed;
 	background-color: blue;
-	top: 56px;
+	top: 20%;
 	left: 0;
 	padding: 1%;
+}
+
+#social a {
 	color: #fff;
 }
 
