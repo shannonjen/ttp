@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+#wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+header {
+	padding: 3%;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	color: #111;
+	padding-right: 10px;
+}
+
+#social {
+	position: fixed;
+	background-color: blue;
+	top: 56px;
+	left: 0;
+	padding: 1%;
+	color: #fff;
+}
+
+#main-content {
+	padding: 0 2%;
+}
+
+.two-col {
+	width: 48%;
+	padding: 0 1%;
+	float: left;
+}
+
+.three-col {
+	width: 31%;
+	padding: 0 1%;
+	float: left;
+}
+
+.pic {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 1%;
+}
+
+#pic1 {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Hs-2009-25-e-full_jpg.jpg) center center;
+	background-size: cover;
+}
+
+#pic2 {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Hs-2009-25-e-full_jpg.jpg) center center;
+	background-size: cover;
+}
+
+#pic3 {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Hs-2009-25-e-full_jpg.jpg) center center;
+	background-size: cover;
+}
+
+#pic4 {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Hs-2009-25-e-full_jpg.jpg) center center;
+	background-size: cover;
+}
+
+#pic5 {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Hs-2009-25-e-full_jpg.jpg) center center;
+	background-size: cover;
+}
+
+#pic6 {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Hs-2009-25-e-full_jpg.jpg) center center;
+	background-size: cover;
+}
+
+#pic7 {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Hs-2009-25-e-full_jpg.jpg) center center;
+	background-size: cover;
+}
+
+#pic8 {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Hs-2009-25-e-full_jpg.jpg) center center;
+	background-size: cover;
+}
+
+footer {
+	padding: 3%;
+	clear: left;
+}

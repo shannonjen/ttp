@@ -3,8 +3,11 @@
 This first assignment will serve to check your understanding of the material we have covered in class so far:
 
 *HTML
+
 *CSS
+
 *git
+
 *GitHub
 
 You will need to use git (make at least three commits) and push to GitHub. You will need to submit a link to a GitHub repository for this assignment.
@@ -21,29 +24,33 @@ Create 3 different web pages connected by a horizontal navigation menu exemplify
 
 * At least 3 git commits 
 
-__ 3 points __
+__ 3 Points __
 
 
 At least 3 different web pages, including:
 
 * Two-column layout (include a link to Facebook and Twitter)
 
-__2 Points__
+__ 2 Points __
 
 
 * Three-column layout web page
 
-__2 Points__
+__ 2 Points __
 
 
 * A responsive image gallery with at least 4 images. Instead of <img> elements, use <div>s with background-image and float (CSS).
 
-__1 Points__
+__ 1 Point __
 
 
 * A consistent navigation menu at the top of each page 
 
-__1 Point__
+__ 1 Point __
+
+* An extra point was given for submitting your first GitHub repo. For future assignments and projects, a perfect score will be reserved for exceptional work. 
+
+__ 1 Point __
 
 __Total__: 10 Points
 
