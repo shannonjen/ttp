@@ -1,0 +1,11 @@
+
+body{
+	background-color: orange;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	background-color: orange;
+	background-color: rgba(0,0,0,0.7);
+	width: 100px;
+}

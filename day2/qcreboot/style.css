@@ -1,0 +1,89 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+header {
+	color: white;
+	height: 60vh;
+	overflow: auto;
+	background: url(space_dome.jpg) center;
+	background-size: cover;
+}
+
+nav li {
+	display: inline;
+}
+
+#logo {
+	float: left;
+	font-size: 48px;
+	margin: 0;
+	padding-top: 6px;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 1px #000;
+}
+
+nav a {
+	text-shadow: 0px 0px 1px #000;
+}
+
+nav ul {
+	padding-top: 24px;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	padding-right: 10px;
+	color: white;
+}
+
+#social {
+	position: fixed;
+	background-color: blue;
+	top: 25%;
+	left: 0;
+	padding: 1%;
+	color: white;
+}
+
+.container {
+	width: 98%;
+	margin: 0 auto;
+}
+
+#left {
+	clear: left;
+	width: 49%;
+	float: left;
+	background-size: cover;
+	padding-right: 1%;
+}
+
+#right {
+	width: 49%;
+	float: left;
+	padding-left: 1%;
+}
+
+footer {
+	clear: left;
+	background-color: #111;
+	color: white;
+	overflow: auto;
+}
+
