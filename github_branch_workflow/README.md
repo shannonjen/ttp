@@ -161,7 +161,10 @@ Ex.
 >>>>>>> 9a4c2a8699940e7709d33de9c2703d42be976e58
 	
 </body>
-</html> ``` They are resolved by editing problem file(s) and making a commit. The problem file(s) may open in vim, a command line text editor, by default. You can either use vim or exit vim by pressing escape and entering
+</html> 
+``` 
+
+They are resolved by editing problem file(s) and making a commit. The problem file(s) may open in vim, a command line text editor, by default. You can either use vim or exit vim by pressing escape and entering
 
 ```
 :q!
