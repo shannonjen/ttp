@@ -2,7 +2,7 @@
 
 I am working with my partner, Bob. We are going to build a website collaboratively and plan to use a GitHub repo as a central repository. We will create and work on feature branches locally on our machine.
 
-On my local machine, I make a folder called my_website that will hold the files and folders of the project and add a basic index.html file with simple HTML scaffolding. 
+On my local machine, I make a folder called my_website that will hold the files and folders of the project. I add a basic index.html file with simple HTML scaffolding to the folder. 
 
 From within the my_website folder I initialize the folder as a git repository. 
 
@@ -10,7 +10,7 @@ From within the my_website folder I initialize the folder as a git repository.
 $ git init
 ```
 
-I do this only once. This initialization will generate a hidden folder where all of the git magic will be stored and will allow me to: 
+I do this only once. This initialization will generate a hidden folder where all of the git magic will be stored. Git will allow me to many things including: 
 *	take snapshots (commits) of my code as I progress 
 * make branches 
 * push my code to a remote server (like GitHub)
@@ -34,20 +34,23 @@ I am going to add this empty GitHub repository URL as a remote and we are going 
 $ git remote add origin https://github.com/shannonjen/my_website.git
 ```
 
-Next I am going to push my local master branch to the GitHub repository (origin). I use the -u to set the upstream - this sets up the association between the master branch on my local machine and the master branch on origin (GitHub repo). Meaning I will only need to type git push in future pushes
+Next I am going to push my local master branch to the GitHub repository (origin). I use the -u  flag to set the upstream. This sets up the association between the master branch on my local machine and the master branch on origin (the GitHub repo). Now I will only need to type git push in future pushes.
 
 ```
 $ git push -u origin master
 ```
 
-Now we have our centralized production master on GitHub. I make Bob a collaborator on the GitHub repo, which will allow him to push and pull. 
+Now we have our centralized production master on GitHub. 
+
+####GITHUB GUI
+I make Bob a collaborator on the GitHub repo, which will allow him to push and pull. 
 
 We will work on feature branches on our local machines, push them to GitHub, and use pull requests on GitHub. 
 
 I am going to add a navigation menu to index.html and bob is going to add some welcome text and an image.
 
 ####BOB'S MACHINE
-Bob clones the GitHub repository onto his machine and created and checks out a branch called add-welcome.
+Bob clones the GitHub repository onto his machine and creates and checks out a branch called add-welcome.
 
 ```
 $ git clone https://github.com/shannonjen/my_website.git
@@ -90,7 +93,7 @@ $ git push -u origin add-nav
 ####GITHUB GUI
 ...and make a pull request on GitHub. 
 
-Bob gets my request and stops what he is doing. He is going to merge my add-nav into the master branch on GitHub (the central repository). He can use the GitHub GUI, but running things locally will allow him to check and test the code. 
+Bob gets my request and stops what he is doing. He is going to merge my add-nav into the master branch on GitHub (the central repository). If there aren't any conflicts, he can use the GitHub GUI, but running things locally will allow him to check and test the code. 
 
 ####BOB'S MACHINE
 First he needs to checkout his local master, update it (pull the GitHub master into his local master), and then pull the add-nav from GitHub into his newly updated master. 
@@ -115,7 +118,7 @@ Now Bob goes back to finishing the work on his local branch
 $ git checkout add-welcome
 ```
 
-When he is finished and ready to merge, he will make sure he has committed all of the changes on the add-welcome branch on his machine and then push his branch to the GitHub repo (origin)
+When he is finished and ready to make a pull request, he will make sure he has committed all of the changes on the add-welcome branch on his machine and then push this branch to the GitHub repo (origin)
 
 ```
 $ git push -u origin add-welcome
@@ -158,10 +161,7 @@ Ex.
 >>>>>>> 9a4c2a8699940e7709d33de9c2703d42be976e58
 	
 </body>
-</html>
-```
-
-They are resolved by editing problem file(s) and making a commit. The problem file(s) may open in vim, a command line text editor, by default. You can either use vim or exit vim by pressing escape and entering
+</html> ``` They are resolved by editing problem file(s) and making a commit. The problem file(s) may open in vim, a command line text editor, by default. You can either use vim or exit vim by pressing escape and entering
 
 ```
 :q!
