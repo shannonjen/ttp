@@ -10,7 +10,7 @@ From within the my_website folder I initialize the folder as a git repository.
 $ git init
 ```
 
-I do this only once. This initialization will generate a hidden folder where all of the git magic will be stored. Git will allow me to many things including: 
+I do this only once. This initialization will generate a hidden folder where all of the git magic will be stored. Git will allow me to do many things, including: 
 *	take snapshots (commits) of my code as I progress 
 * make branches 
 * push my code to a remote server (like GitHub)
@@ -34,7 +34,7 @@ I am going to add this empty GitHub repository URL as a remote and we are going 
 $ git remote add origin https://github.com/shannonjen/my_website.git
 ```
 
-Next I am going to push my local master branch to the GitHub repository (origin). I use the -u  flag to set the upstream. This sets up the association between the master branch on my local machine and the master branch on origin (the GitHub repo). Now I will only need to type git push in future pushes.
+Next I am going to push my local master branch to the GitHub repository (origin). I use the -u  flag to set the upstream. This sets up the association between the master branch on my local machine and the master branch on origin (the GitHub repo). I will only need to type git push in future pushes.
 
 ```
 $ git push -u origin master
@@ -168,3 +168,7 @@ Ex.
 ```
 
 You will need to open the problem files with a text editor of your choice, fix the code, and commit the changes.
+
+To read more about this workflow and other workflows, checkout:
+
+[Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
