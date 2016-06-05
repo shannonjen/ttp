@@ -14,6 +14,9 @@ http://learn.shayhowe.com/html-css/
 https://try.github.io
 
 https://git-scm.com/book/en/v2
+
+https://www.atlassian.com/git/tutorials/comparing-workflows
+
 ###JavaScript
 http://eloquentjavascript.net/
 ###Node

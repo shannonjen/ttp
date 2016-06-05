@@ -43,7 +43,14 @@ $ git push -u origin master
 Now we have our centralized production master on GitHub. 
 
 ####GITHUB GUI
-I make Bob a collaborator on the GitHub repo, which will allow him to push and pull. 
+I make Bob a collaborator on the GitHub repo...
+
+![alt text](co.png "Add Collaborator")
+
+
+
+
+This will allow him to push and pull. 
 
 We will work on feature branches on our local machines, push them to GitHub, and use pull requests on GitHub. 
 
