@@ -25,7 +25,13 @@ $ git commit -m “Initial Commit”
 Now I have a folder set up with a git repository on my machine. Next, I’d like to push the repository to GitHub. 
 
 ####GITHUB GUI
-I create a new repository on GitHub. This generates a unique URL - a location on GitHub for me to push the local repository from my machine. 
+I create a new repository on GitHub. 
+
+![alt text](create.png "Create Repo")
+
+This generates a unique URL - a location on GitHub for me to push the local repository from my machine. 
+
+![alt text](url.png "Repo URL")
 
 ####MY MACHINE
 I am going to add this empty GitHub repository URL as a remote and we are going to give it a name of origin.
@@ -46,9 +52,6 @@ Now we have our centralized production master on GitHub.
 I make Bob a collaborator on the GitHub repo...
 
 ![alt text](co.png "Add Collaborator")
-
-
-
 
 This will allow him to push and pull. 
 
