@@ -1,6 +1,6 @@
 #HTML, CSS, git, and GitHub check
 
-![alt text](http://shannonjen.github.io/ttp/assignment1/two_column.html)
+http://shannonjen.github.io/ttp/assignment1/two_column.html
 
 This first assignment will serve to check your understanding of the material we have covered in class so far:
 
