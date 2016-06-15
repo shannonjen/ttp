@@ -2,7 +2,7 @@
   "name": "inspiration_app",
   "version": "1.0.0",
   "engines": {
-    "node": "4.1.1"
+    "node": "5.0.0"
   },
   "description": "",
   "main": "app.js",
