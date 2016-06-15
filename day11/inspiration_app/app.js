@@ -41,7 +41,7 @@ app.get('/login', function (req, res) {
 app.post('/', function (req, res){
 	console.log("Hello this is a post request");
 	console.log("username: "+ req.body.username);
-	res.render('home');
+	res.render('home', { username: req.body.username});
 });
 
 app.listen(3000, function () {
