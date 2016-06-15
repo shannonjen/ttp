@@ -4,6 +4,9 @@
   "engines": {
     "node": "5.0.0"
   },
+  "scripts": {
+    "start": "node app.js"
+  }
   "description": "",
   "main": "app.js",
   "scripts": {
