@@ -3,29 +3,29 @@
 
 ## Fullstack Tutorials & Code Samples
 
-### Todo-Backend
+#### Todo-Backend
 http://www.todobackend.com/
 
-"The Todo-Backend project helps showcase and compare different language and framework combinations for building web services. This website defines a simple web API in the form of a todo list and users can create their own identical APIs using various tech stacks. This website then provides a spec runner to verify that the user implementation is identical to the base implementation."" 
+"The Todo-Backend project helps showcase and compare different language and framework combinations for building web services. This website defines a simple web API in the form of a todo list and users can create their own identical APIs using various tech stacks. This website then provides a spec runner to verify that the user implementation is identical to the base implementation."
 
-### MVC Express App Structure
+#### MVC Express App Structure
 https://www.terlici.com/2014/08/25/best-practices-express-structure.html
 
-### RESTful API 
+#### RESTful API with pg-promise
 http://mherman.org/blog/2016/03/13/designing-a-restful-api-with-node-and-postgres/#.V2pkEZMrKRs
 
 
 
 ## PostgreSQL & SQL references
 
-### If you are new to SQL and Databases, check out 
+#### If you are new to SQL and Databases, check out 
 https://www.postgresql.org/docs/9.5/static/tutorial.html
 
 
-### SQL
+#### SQL
 https://www.postgresql.org/docs/9.5/static/sql.html
 
-### psql
+#### psql
 https://www.postgresql.org/docs/9.5/static/app-psql.html
 
 
