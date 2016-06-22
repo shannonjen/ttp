@@ -14,7 +14,11 @@ https://www.terlici.com/2014/08/25/best-practices-express-structure.html
 #### RESTful API with pg-promise
 http://mherman.org/blog/2016/03/13/designing-a-restful-api-with-node-and-postgres/#.V2pkEZMrKRs
 
+###pg-promise best practices
+https://github.com/vitaly-t/pg-promise-demo
 
+### Heroku with Node
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction
 
 ## PostgreSQL & SQL references
 
@@ -47,15 +51,36 @@ https://www.npmjs.com/
 ###handlebars
 http://handlebarsjs.com/
 
-##npm Packages
 
-##Demos
+## Tools
 
-###pg-promise best practices
-https://github.com/vitaly-t/pg-promise-demo
+### Gulp
+http://gulpjs.com/
 
+### Bower
+https://bower.io/
 
+### Grunt
+http://gruntjs.com/
 
+### Yeoman
+http://yeoman.io/
+
+### Webpack
+http://webpack.github.io/docs/what-is-webpack.html
+
+### Karma
+https://karma-runner.github.io/0.13/index.html
+
+## MV Frameworks
+
+### Angular
+
+### React
+
+### Ember
+
+### Backbone
 
 ##Reference (my favorites)
 ###HTML Elements
